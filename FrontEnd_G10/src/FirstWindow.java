@@ -40,41 +40,6 @@ public class FirstWindow extends JFrame implements Serializable {
     ObjectOutputStream salida = null;
     FileOutputStream fos = null;
     public FirstWindow() throws IOException, ClassNotFoundException {
-        /*
-        ObjectOutputStream salida = null;
-        FileOutputStream fos = null;
-        try {
-            fos = new FileOutputStream("C:\\Users\\Vlad\\OneDrive - Universidad de Castilla-La Mancha\\Escritorio\\EntregaFinal_G10\\FrontEnd_G10\\puerto.dat");
-        } catch (FileNotFoundException e) {
-            throw new RuntimeException(e);
-        }
-        try {
-            salida = new ObjectOutputStream(fos);
-        } catch (IOException e) {
-            throw new RuntimeException(e);
-        }
-
-
-        Carguero c = new Carguero();
-        try {
-            salida.writeObject(c);
-        } catch (IOException e) {
-            throw new RuntimeException(e);
-        }
-
-
-        try {
-            fos.close();
-        } catch (IOException e) {
-            throw new RuntimeException(e);
-        }
-        try {
-            salida.close();
-        } catch (IOException e) {
-            throw new RuntimeException(e);
-        }
-
-         */
 
 
         comboBox1.addItem("España");
@@ -125,18 +90,13 @@ public class FirstWindow extends JFrame implements Serializable {
         setLocationRelativeTo(null);
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         setVisible(true);
-        /////////////////////////////////
-        /////////////////////////////////
-        /////////////////////////////////
+
         FileInputStream fis = null;
         ObjectInputStream entrada = null;
         ///////////Lectura///////////////
-        fis = new FileInputStream("C:\\Users\\Vlad\\OneDrive - Universidad de Castilla-La Mancha\\Escritorio\\EntregaFinal_G10\\FrontEnd_G10\\puerto.dat");
+        fis = new FileInputStream("puerto.dat");
         entrada = new ObjectInputStream(fis);
         c = (Carguero) entrada.readObject();
-        //System.out.println(c.toString());
-        //textArea2.setText(c.toString(0));
-
         /////////////Cierre//////////////
         fis.close();
         entrada.close();
@@ -174,7 +134,7 @@ public class FirstWindow extends JFrame implements Serializable {
                     c.apilarContenedor(cont);
                     textArea2.setText(c.toString());
                     try {
-                        fos = new FileOutputStream("C:\\Users\\Vlad\\OneDrive - Universidad de Castilla-La Mancha\\Escritorio\\EntregaFinal_G10\\FrontEnd_G10\\puerto.dat");
+                        fos = new FileOutputStream("puerto.dat");
                     } catch (FileNotFoundException y) {
                         throw new RuntimeException(y);
                     }
@@ -210,7 +170,7 @@ public class FirstWindow extends JFrame implements Serializable {
                 c.desapilarContenedor(Integer.parseInt(textField5.getText()), Integer.parseInt(textfield.getText()));
                 textArea2.setText(c.toString());
                 try {
-                    fos = new FileOutputStream("C:\\Users\\Vlad\\OneDrive - Universidad de Castilla-La Mancha\\Escritorio\\EntregaFinal_G10\\FrontEnd_G10\\puerto.dat");
+                    fos = new FileOutputStream("puerto.dat");
                 } catch (FileNotFoundException y) {
                     throw new RuntimeException(y);
                 }

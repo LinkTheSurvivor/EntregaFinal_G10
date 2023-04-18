@@ -100,19 +100,4 @@ public class SecondWindow extends JFrame{
 
     }
 
-    public static void main1(String[] args) {
-        ObjectOutputStream salida = null;
-        FileOutputStream fos = null;
-        try {
-            fos = new FileOutputStream("personas.dat");
-        } catch (FileNotFoundException e) {
-            throw new RuntimeException(e);
-        }
-        try {
-            salida = new ObjectOutputStream(fos);
-        } catch (IOException e) {
-            throw new RuntimeException(e);
-        }
-    }
-
 }

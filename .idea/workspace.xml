@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e441ca6c-3a55-4134-bf5b-9b46b9223bb6" name="Changes" comment="trabajoFinal_G10">
-      <change beforePath="$PROJECT_DIR$/FrontEnd_G10/puerto.dat" beforeDir="false" afterPath="$PROJECT_DIR$/FrontEnd_G10/puerto.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontEnd_G10/src/FirstWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/FrontEnd_G10/src/FirstWindow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontEnd_G10/src/SecondWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/FrontEnd_G10/src/SecondWindow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontEnd_G10/src/StartLine.java" beforeDir="false" afterPath="$PROJECT_DIR$/FrontEnd_G10/src/StartLine.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +34,7 @@
     &quot;UI_DESIGNER_EDITOR_MODE.PaletteManager.SHOW&quot;: &quot;false&quot;,
     &quot;UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.SHOW&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Vlad/OneDrive - Universidad de Castilla-La Mancha/Escritorio/EntregaFinal_G10/FrontEnd_G10/out/artifacts/BackEnd_G10_jar/BackEnd_G10.jar&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Vlad/OneDrive - Universidad de Castilla-La Mancha/Escritorio/PETRU-VLAD_examen&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -92,6 +95,13 @@
       <workItem from="1681206441746" duration="2132000" />
       <workItem from="1681211457041" duration="55000" />
       <workItem from="1681227726856" duration="318000" />
+      <workItem from="1681240230680" duration="686000" />
+      <workItem from="1681297770436" duration="42000" />
+      <workItem from="1681373001857" duration="31000" />
+      <workItem from="1681634497554" duration="455000" />
+      <workItem from="1681719082624" duration="12000" />
+      <workItem from="1681722283690" duration="207000" />
+      <workItem from="1681824067635" duration="1056000" />
     </task>
     <task id="LOCAL-00001" summary="trabajoFinal_G10">
       <created>1681066258514</created>
@@ -100,7 +110,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681066258514</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="trabajoFinal_G10">
+      <created>1681240321148</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1681240321148</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
