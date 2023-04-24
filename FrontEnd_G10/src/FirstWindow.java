@@ -94,12 +94,18 @@ public class FirstWindow extends JFrame implements Serializable {
         FileInputStream fis = null;
         ObjectInputStream entrada = null;
         ///////////Lectura///////////////
-        fis = new FileInputStream("puerto.dat");
-        entrada = new ObjectInputStream(fis);
-        c = (Carguero) entrada.readObject();
-        /////////////Cierre//////////////
-        fis.close();
-        entrada.close();
+        try{
+            fis = new FileInputStream("puerto.dat");
+            entrada = new ObjectInputStream(fis);
+            c = (Carguero) entrada.readObject();
+            /////////////Cierre//////////////
+            fis.close();
+            entrada.close();
+        } catch (Exception e) {
+            //Si el fichero no existe y aparece un error se crea el Puerto con el constructor por defecto
+            c = new Carguero();
+
+        }
         ////////////////////////////////
         textArea2.setText(c.toString());
         ////////////////////////////////
