@@ -3,6 +3,8 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.*;
 
+//Daniel Pozo Marques
+
 public class FirstWindow extends JFrame implements Serializable {
 
 
@@ -33,6 +35,9 @@ public class FirstWindow extends JFrame implements Serializable {
     private JTextArea textArea2;
     private JTextField textField7;
     private JTextField textfield;
+    private JButton pesoAduanasButton;
+    private JTextField textField8;
+    private JTextField textField9;
     private Carguero c;
     private boolean aduanas = false;
     FileInputStream fis = null;
@@ -277,6 +282,44 @@ public class FirstWindow extends JFrame implements Serializable {
                     int x =0;
                     x = c.contenedoresporPais(pais);
                     textField7.setText(String.valueOf(x));
+                }
+            }
+        });
+
+        pesoAduanasButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                JOptionPane.showMessageDialog(null, "Pulsaste el botón 'Peso Aduanas'.", "", JOptionPane.INFORMATION_MESSAGE);
+                if(textField8.getText()!=null && textField9.getText()!=null){
+                    Texto sw = new Texto(c.PesoAduana(Integer.parseInt(textField8.getText()), Integer.parseInt(textField9.getText())));
+
+                    try {
+                        fos = new FileOutputStream("puerto.dat");
+                    } catch (FileNotFoundException y) {
+                        throw new RuntimeException(y);
+                    }
+                    try {
+                        salida = new ObjectOutputStream(fos);
+                    } catch (IOException y) {
+                        throw new RuntimeException(y);
+                    }
+                    try {
+                        salida.writeObject(c);
+                    } catch (IOException y) {
+                        throw new RuntimeException(y);
+                    }
+
+
+                    try {
+                        fos.close();
+                    } catch (IOException y) {
+                        throw new RuntimeException(y);
+                    }
+                    try {
+                        salida.close();
+                    } catch (IOException y) {
+                        throw new RuntimeException(y);
+                    }
                 }
             }
         });

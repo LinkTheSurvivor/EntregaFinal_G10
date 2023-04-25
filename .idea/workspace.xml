@@ -4,11 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e441ca6c-3a55-4134-bf5b-9b46b9223bb6" name="Changes" comment="trabajoFinal_G10" />
+    <list default="true" id="e441ca6c-3a55-4134-bf5b-9b46b9223bb6" name="Changes" comment="trabajoFinal_G10">
+      <change afterPath="$PROJECT_DIR$/FrontEnd_G10/src/Texto.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrontEnd_G10/src/Texto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontEnd_G10/out/artifacts/BackEnd_G10_jar/BackEnd_G10.jar" beforeDir="false" afterPath="$PROJECT_DIR$/FrontEnd_G10/out/artifacts/BackEnd_G10_jar/BackEnd_G10.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontEnd_G10/src/FirstWindow.form" beforeDir="false" afterPath="$PROJECT_DIR$/FrontEnd_G10/src/FirstWindow.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontEnd_G10/src/FirstWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/FrontEnd_G10/src/FirstWindow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontEnd_G10/src/StartLine.java" beforeDir="false" afterPath="$PROJECT_DIR$/FrontEnd_G10/src/StartLine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/puerto.dat" beforeDir="false" afterPath="$PROJECT_DIR$/puerto.dat" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -22,23 +38,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;UI_DESIGNER_EDITOR_MODE.PaletteManager.SHOW&quot;: &quot;false&quot;,
-    &quot;UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.SHOW&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Vlad/OneDrive - Universidad de Castilla-La Mancha/Escritorio/PETRU-VLAD_examen&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "UI_DESIGNER_EDITOR_MODE.PaletteManager.SHOW": "true",
+    "UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.SHOW": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/fynal/Desktop/EntregaFinal_G10/FrontEnd_G10/src",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\fynal\Desktop\EntregaFinal_G10\FrontEnd_G10\src" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Vlad\OneDrive - Universidad de Castilla-La Mancha\Escritorio\EntregaFinal_G10\FrontEnd_G10\src" />
     </key>
@@ -134,7 +153,28 @@
       <option name="project" value="LOCAL" />
       <updated>1682249334236</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="trabajoFinal_G10">
+      <created>1682415190110</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1682415190110</updated>
+    </task>
+    <task id="LOCAL-00007" summary="trabajoFinal_G10">
+      <created>1682415221856</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1682415221856</updated>
+    </task>
+    <task id="LOCAL-00008" summary="trabajoFinal_G10">
+      <created>1682415255186</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1682415255188</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
